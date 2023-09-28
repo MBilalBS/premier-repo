@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/inscriptions.css">
+</head>
+<body>
+    <div id="div_inscription" class="police">
+        <h1 id="tittle">Inscriptions</h1>
+        <h2>Crée un compte </h2>
+        <form class="input-user" action="./account.html">
+            <label for="" class="police">
+                Nom :
+            </label>
+            <input type="text" name="name" id="id_name" class="police" placeholder="Entrez votre nom">
+            <label for="">
+                Prénom :
+            </label>
+            <input type="text" name="halfname" id="id_prenom" placeholder="Entrez votre prénom">
+            <label for="">
+                Adresse électronique : 
+            </label>
+            <input type="text" name="mail" id="id_email" placeholder="mail@exemple.fr">
+            <label for="">
+                Nouveau mot de passe :        
+            </label>
+            <input type="password" name="mdp" id="id_mdp" placeholder="Entrez votre mot de passe">
+            <label for="">
+                Confirmez votre mot de passe : 
+            </label>  
+            <input type="password" name="confirme_mdp" id="confirm_mdp" placeholder="Confirmez votre mot de passe">
+            <button class="button" type="submit" id="button_connect">Creation du compte</button>
+        </form>       
+    </div>
+    <form id="connect">
+    Vous avez déjà un compte ? <a href="./index.html">Connectez vous !</a>
+</form>
+</body>
+</html>
