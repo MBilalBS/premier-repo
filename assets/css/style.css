@@ -1,16 +1,43 @@
-#logoafpa {
-    display: flex;
-    margin-left: 250px;
+* {
+    /* border: 1px solid red; */
 }
+#logoafpa {
+    /* display: flex; */
+    /* margin-left: 250px; */
+    align-items: center;
+}
+
+
 #hformulaire {
-    margin-left: 250px;
-
-
+    text-align: center;
+    font-size: 120%;
+    font-weight: 700;
 }
 #divformulaire {
-    display: flex;
-    margin-left: 250px;
+    border: 1px solid black;
+    border-radius: 2%;
+    width: 40%;
+    margin: 50px auto ;
+    text-align: center;
 }
-#body {
-    background-color: black;
+
+#id_motdepasse {
+   margin: 5px; 
+}
+
+label {
+    display: block;
+}
+
+#button1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+#divprv {
+    border: 1px solid black;
+    border-radius: 2%;
+    margin: auto auto 50px;
+    width: 50%;
+    padding-top: 5px;
 }
