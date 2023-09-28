@@ -1,0 +1,52 @@
+* {
+    /* border: 1px solid red; */
+   
+}
+#logoafpa {
+    /* display: flex; */
+    /* margin-left: 250px; */
+    align-items: center;
+}
+
+
+#hformulaire {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 700;
+}
+#divformulaire {
+    border: 1px solid black;
+    border-radius: 2%;
+    width: 40%;
+    margin: 50px auto ;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#id_motdepasse {
+   margin: 20px auto ; 
+}
+
+label {
+    display: block;
+}
+
+#button1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.police{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#divprv {
+    border: 1px solid black;
+    border-radius: 2%;
+    margin: auto auto 50px;
+    width: 50%;
+    padding-top: 20px;
+}
+#id_motdepasse {
+    /* padding-left: 15px; */
+    /* margin-left: 5px; */
+}

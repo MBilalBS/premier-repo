@@ -1,0 +1,56 @@
+*{
+/* border: 1px solid red; */
+}
+.police{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#div_inscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(53, 53, 153);
+    border-radius: 2%;
+    width: 40%;
+    margin: 50px auto ;
+    text-align: center;
+    padding-bottom: 20px;   
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    margin: auto;
+}
+#id_email{
+    margin: 10px;
+}
+#id_mdp{
+    margin: 10px;
+}
+#confirm_mdp{
+    margin: 10px;
+}
+#button_connect{
+    width: 91%;
+    margin: 50px auto 10px;
+    padding: 10px;
+    background-color: rgb(53, 53, 153);
+    font-weight: 600;
+    color: white;
+}
+#connect{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+#id_name{
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#id_prenom{
+    margin: 10px;
+}
