@@ -1,4 +1,16 @@
-.id_formulaire {
-    
+#logoafpa {
+    display: flex;
+    margin-left: 250px;
+}
+#hformulaire {
+    margin-left: 250px;
+
+
+}
+#divformulaire {
+    display: flex;
+    margin-left: 250px;
+}
+#body {
     background-color: black;
 }
